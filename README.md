@@ -1,6 +1,6 @@
 # Preformer
 
-This repository contains the pytorch code for the paper "[Preformer: Predictive Transformer with Multi-Scale Segment-wise Correlations for Long-Term Time Series Forecasting](https://arxiv.org/pdf/2202.11356.pdf)”.
+This repository contains the pytorch code for the 2023 ICASSP paper "[Preformer: Predictive Transformer with Multi-Scale Segment-wise Correlations for Long-Term Time Series Forecasting](https://arxiv.org/pdf/2202.11356.pdf)”.
 
 # Model
 The core MSSC module:
@@ -40,11 +40,12 @@ python run.py --is_training 0 --root_path ./data/ --data_path ETTh1.csv --model_
 # Citation
 
 ```
-@article{du2022preformer,
+@inproceedings{du2022preformer,
   title={Preformer: Predictive Transformer with Multi-Scale Segment-wise Correlations for Long-Term Time Series Forecasting},
   author={Du, Dazhao and Su, Bing and Wei, Zhewei},
-  journal={arXiv preprint arXiv:2202.11356},
-  year={2022}
+  booktitle={ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  year={2023},
+  organization={IEEE}
 }
 ```
 
